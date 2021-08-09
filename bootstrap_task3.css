@@ -1,0 +1,66 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.container{
+    background:url("./beach1.jpg");
+    background-size:cover;
+    height:400px;
+    display:flex;
+    align-items:center;
+    justify-content:flex-end;
+}
+.container-fluid{
+    background:rgba(248, 245, 245, 0.5);
+}
+.card{
+    width:250px;
+    margin:5px;
+}
+.img1{
+    width:250px;
+    height:200px;
+}
+.row{
+    display:flex;
+    justify-content:center;
+}
+.card-title{
+    font-weight:bold;
+}
+.container2{
+    background:silver;
+    margin:5px;
+    padding:5px;
+}
+.container3{
+    background:grey;
+    margin:5px;
+    padding:5px;
+}
+.container4{
+    background:url("./beach6.jpg");
+    background-size:cover;
+    height:300px;
+    display:flex;
+    align-items:center;
+    justify-content:flex-end;
+}
+.container-fluid2{
+    background:rgba(248, 245, 245, 0.3);
+    padding:3px;
+    
+}
+@media (max-width:576px){
+    .container-fluid{
+        width: 100%;
+    }
+    .heading,.heading2{
+        font-size:25px;
+    }
+    .content2 h2{
+        text-align:center;
+        font-weight:bold;
+        font-size:25px;
+    }
+}
